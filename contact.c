@@ -28,9 +28,9 @@ int main(int argc, char const *argv[])
 			if (fptr != NULL) {
 				while (fgets(line, sizeof(line), fptr)) {
 					printf("%s", line);
-			}
-			printf("\n*********************\n");
-			fclose(fptr);
+				}
+				printf("\n*********************\n");
+				fclose(fptr);
 			} else 
 				printf("*********************\nError opening file.");
 				break;
